@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/**
+* @name Pøz
+* @author Pozm#6946
+* @description Discord theme
+* @version 1.1
+*/
+.css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic {
+  backdrop-filter: blur(24px);
+  background-color: rgba(24, 26, 31, 0.1) !important;
+  border: solid 1px transparent;
+}
+
+.paymentSourceLabel-1lo4Ca {
+  transition: filter 0.4s;
+  filter: blur(8px);
+}
+.paymentSourceLabel-1lo4Ca:hover {
+  filter: blur(0);
+}
+
+#EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-6fzn47-control, .css-gvi9bl-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
+  background: #181a1f;
+}
+
+#EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
+  background: #131315;
+}
+
+:root {
+  --background-floating:#181a1f;
+  --background-tertiary:rgba(17, 18, 22, 0.7);
+  --background-primary:#131315;
+  --channeltextarea-background:#181a1f;
+  --background-secondary-alt:#181a1f;
+  --background-secondary:#181a1f;
+  --burple: #db5e85;
+  --info-warning-foreground: #db5e85;
+  --background-mentioned: rgba(179, 40, 83, 0.3);
+  --background-mentioned-hover: rgba(179, 40, 83, 0.4);
+  --background-mentioned-bar: #db5e85;
+  --indicator-selected-border: #db5e85;
+  --indicator-selected-background:rgba(219, 94, 133, 0.1);
+}
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: "Noto Sans", "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181a1f !important;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+  background-color: #b32853 !important;
+}
+
+.ephemeral-1PsL1r {
+  background-color: var(--background-mentioned);
+}
+.ephemeral-1PsL1r:before {
+  background-color: #db5e85;
+}
+.ephemeral-1PsL1r:hover {
+  background-color: var(--background-mentioned-hover) !important;
+}
+
+.replying-1x3H0T {
+  background-color: var(--background-mentioned);
+}
+.replying-1x3H0T:before {
+  background-color: #db5e85;
+}
+.replying-1x3H0T:hover {
+  background-color: var(--background-mentioned-hover) !important;
+}
+
+img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
+  content: url("https://cdn.discordapp.com/avatars/288062966803333120/53e3a79a523939fd3b30ddcd8d464990.webp?size=2048");
+}
+img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username-1A8OIy {
+  font-size: 0;
+}
+img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username-1A8OIy:before {
+  content: "Pøzm";
+  opacity: 1;
+  color: white;
+  font-size: initial;
+}
+
+.theme-dark .input-3ITkQf:checked + .checkbox-1ix_J3 {
+  background-color: transparent !important;
+  border-color: #db5e85 !important;
+}
+.theme-dark .input-3ITkQf:checked + .checkbox-1ix_J3 * {
+  color: #db5e85 !important;
+  fill: #db5e85 !important;
+}
+.theme-dark .wrapper-3WhCwL {
+  background: #b32853;
+}
+.theme-dark .wrapper-3WhCwL:hover {
+  background: #db5e85;
+}
+.mediaBarProgress-1xaPtl {
+  background-color: #db5e85;
+}
+.mediaBarProgress-1xaPtl:before, .mediaBarProgress-1xaPtl:after {
+  background-color: #db5e85;
+}
+
+.bubble-3qRl2J, .mediaBarGrabber-1FqnbN {
+  background-color: #db5e85 !important;
+}
+
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+  border: 1px solid #db5e85;
+}
+
+.backdrop-1wrmKB {
+  background: rgba(19, 19, 21, 0.56) !important;
+  backdrop-filter: blur(2px);
+  opacity: 1 !important;
+}
+
+.radioIconForeground-XwlXQN {
+  color: #db5e85;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: #db5e85;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: rgba(219, 94, 133, 0.5);
+}
+
+.bar-2Qqk5Z .barFill-23-gu- {
+  background: #db5e85;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+  background-color: #db5e85;
+}
+.colorDefault-2K3EoJ.focused-3afm-j:active:not(.hideInteraction-1iHO1O), .colorDefault-2K3EoJ.focused-3afm-j .colorDefault-2K3EoJ.focused-3afm-j {
+  background-color: #b32853 !important;
+}
+
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+  background-color: #b32853 !important;
+}
+
+.wrapper-3jrx9n {
+  border: 2px solid #db5e85;
+}
+.wrapper-3jrx9n .disabled-3I9jyo:not(.selected-mKYnfr) * {
+  color: #181a1f;
+}
+.wrapper-3jrx9n .selected-mKYnfr.option-n0icdO {
+  background: #db5e85;
+}
+
+/** STICKER REMOVER  */
+.assetWrapper-3GNt0z > canvas, .assetWrapper-3GNt0z > img {
+  visibility: hidden;
+  height: 0;
+}
+
+.assetWrapper-3GNt0z {
+  height: auto !important;
+}
+
+.assetWrapper-3GNt0z:before {
+  content: "There is a retarded sticker here";
+  color: white;
+}
+
+.subscriptionDetails-1dUmjl::before {
+  content: "nitro is dogshit!";
+  color: var(--text-normal);
+}
+
+/*# sourceMappingURL=poz.theme.css.map */
