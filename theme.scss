@@ -59,6 +59,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	}
 	background-color: var(--background-mentioned);
 }
+// trolling 2
 img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& + h2 > span > .username-1A8OIy {
 		//opacity: 0;
@@ -272,97 +273,4 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 
 
 
-///**
-// * Snippet from #css-snippets applied the 17 Dec 2020 at 21:42:53
-// * Created by LuckFire#4800 (399416615742996480)
-// * Snippet ID: 788926699898142740
-// */
-//.role-2irmRk {
-//	background-color: var(--background-tertiary);
-//	border-radius: 4px;
-//	border: none;
-//	padding: 0 5px 0 8px;
-//	height: 25px;
-//}
-//.role-2irmRk.actionButton-VzECiy {
-//	background-color: var(--background-tertiary);
-//	padding-left: 7px;
-//	padding-right: 7px;
-//}
-//.role-2irmRk .roleCircle-3xAZ1j {
-//	margin-right: 6px;
-//	width: 9px;
-//	height: 9px;
-//}
-//
-///**
-// * Snippet from #css-snippets applied the 12 Feb 2021 at 22:27:53
-// * Created by Marmota#2533 (289112759948410881)
-// * Snippet ID: 809681377645166602
-// */
-//.buttons-3JBrkn {
-//	opacity: 0;
-//	transition: opacity 0.1s;
-//}
-//
-//.channelTextArea-rNsIhG:hover .buttons-3JBrkn {
-//	opacity: 1.0;
-//}
-///** 809681377645166602 */
-//
-///**
-// * Snippet from #css-snippets applied the 16 Feb 2021 at 20:53:25
-// * Created by Doggybootsy#1333 (515780151791976453)
-// * Snippet ID: 811319441719689257
-// */
-//
-///**
-// * Snippet from #css-snippets applied the 16 Feb 2021 at 21:03:27
-// * Created by Doggybootsy#1333 (515780151791976453)
-// * Snippet ID: 811324000557858836
-// */
-//
-///**
-// * Snippet from #css-snippets applied the 16 Feb 2021 at 21:03:46
-// * Created by Yellowsink#8156 (435026627907420161)
-// * Snippet ID: 811210109405495316
-// */
-//.inline-2bgipb.hiddenSpoilers-1ksnR6 { visibility: visible; }
-//.inline-2bgipb.hiddenSpoilers-1ksnR6 img { filter: blur(3rem); }
-//.inline-2bgipb.hiddenSpoilers-1ksnR6::after {
-//	content: "SPOILER";
-//	color: var(--text-normal);
-//	display: block;
-//	text-align: center;
-//	top: calc(50% - 0.5rem);
-//	position: absolute;
-//	width: 100%;
-//	font-weight: bold;
-//}
-///** 811210109405495316
-//
-///**
-// * Snippet from #css-snippets applied the 10 Apr 2021 at 16:42:18
-// * Created by Awish#6969 (671355502399193128)
-// * Snippet ID: 830397884562145290
-// */
-//.theme-dark .input-2VB9rf {
-//	background: transparent;
-//	background-color: #2929295e; /*Yes this is a color code.*/
-//	color: var(--text-normal);
-//}
-//.scroller-zPkAnE{
-//	background: transparent;
-//}
-////.backdrop-1wrmKB{
-////	opacity: .8 !important;
-////}
-//.theme-dark .quickswitcher-3JagVE {
-//	opacity: 0.9;
-//	backdrop-filter: blur(12px);
-//	display: flex;
-//	background-color: #1d1d1d;
-//	background: transparent;
-//	color: var(--text-normal);
-//}
-///** 830397884562145290 */
+// i ddidn't use any of it so it's gone
