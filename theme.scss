@@ -1,0 +1,368 @@
+$color-light: #181a1f;
+$color-light-darker:scale-color($color-light, $lightness:-30%);
+$color-light-darkerA:rgba($color-light-darker,.7);
+$color-dark : #131315;
+$color-accent: #db5e85;
+$color-accent-dark: scale-color($color-accent, $lightness:-30%);
+
+%blur {
+	backdrop-filter: blur(24px);
+	background-color: rgba($color-light,.1) !important;
+	border: solid 1px transparent;
+}
+%fixColour {
+	background: $color-light;
+}
+%fixColour-Dark {
+	background: $color-dark;
+}
+%fixColour-lDark {
+	background: scale-color($color-light,$lightness:-10%);
+}
+
+:root {
+	--background-floating:#{$color-light};
+	--background-tertiary:#{rgba($color-light-darker,.7)};
+	--background-primary:#{$color-dark};
+	--channeltextarea-background:#{$color-light};
+	--background-secondary-alt:#{$color-light};
+	--background-secondary:#{$color-light};
+	--burple: #{$color-accent};
+	--info-warning-foreground: #{$color-accent};
+	--background-mentioned: #{rgba($color-accent-dark,.3)};
+	--background-mentioned-hover: #{rgba($color-accent-dark,.4)};
+	--background-mentioned-bar: #{$color-accent};
+	--indicator-selected-border: #{$color-accent};
+	--indicator-selected-background:#{rgba($color-accent,.1)};
+}
+
+//.cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK)
+::-webkit-input-placeholder, body, button, input, select, textarea{
+	font-family: 'Noto Sans', sans-serif !important;
+}
+::-webkit-scrollbar-track {
+	background-color:$color-light !important;
+}
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+	background-color: $color-accent-dark !important;
+}
+.modeUnread-1qO3K1 {
+
+}
+.ephemeral-1PsL1r {
+	&:before {
+		background-color: $color-accent
+	}
+	&:hover {
+
+		background-color: var(--background-mentioned-hover) !important;
+	}
+	background-color: var(--background-mentioned);
+}
+img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
+	& + h2 > span > .username-1A8OIy {
+		//opacity: 0;
+		&:before {
+			content: "Pøzm";
+			opacity: 1;
+			color: white;
+			font-size: initial;
+		}
+
+		font-size: 0;
+	}
+	content: url("https://cdn.discordapp.com/avatars/288062966803333120/53e3a79a523939fd3b30ddcd8d464990.webp?size=2048")
+}
+
+// make shit correct colour;
+
+.theme-dark {
+	& .paginator-166-09,& .paymentPane-3bwJ6A {
+		@extend %fixColour;
+		& .payment-xT17Mq {
+			@extend %fixColour;
+		}
+	}
+	& .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+		@extend %fixColour;
+	}
+	& .container-1D34oG {
+		@extend %fixColour;
+	}
+	& .codeRedemptionRedirect-1wVR4b {
+		@extend %fixColour
+	}
+	// old i assume
+	& .input-3ITkQf:checked + .checkbox-1ix_J3 {
+		//background-color: $color-accent !important;
+		border-color: $color-accent !important;
+		* {
+			color: $color-accent !important;
+			fill: $color-accent !important;
+		}
+	}
+	& .root-1gCeng {
+		@extend %fixColour
+	}
+	& .footer-2gL1pp {
+		@extend %fixColour
+	}
+	& .uploadModal-2ifh8j {
+		@extend %fixColour-Dark
+	}
+	& .footer-3mqk7D {
+		@extend %fixColour-Dark
+	}
+	// mentions
+	& .wrapper-3WhCwL {
+		background: $color-accent-dark;
+		&:hover {
+			background: $color-accent;
+		}
+	}
+	& .modal-yWgWj- {
+		@extend %fixColour
+	}
+	& .container-3ayLPN {
+		@extend %fixColour
+	}
+	& .perksModal-fSYqOq {
+		@extend %fixColour
+	}
+
+}
+
+.unicodeShortcut-15J8Ck {
+	@extend %blur
+}
+
+// notes hover / message
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+	border: 1px solid $color-accent;
+}
+// bypass important
+
+.backdrop-1wrmKB {
+	background: rgba($color-dark,.56) !important;
+	backdrop-filter: blur(2px);
+	opacity: 1 !important;
+}
+
+// components recolour;
+.radioIconForeground-XwlXQN {
+	color:$color-accent;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+	&:hover {
+		background-color: rgba($color-accent,.5);
+
+	}
+	background-color: $color-accent;
+}
+// i hope this is the switch element
+//.control-2BBjec {
+//
+//	& .container-3auIfb {
+//		&:not(& input[type="checkbox"]:checked) {
+//			background-color: $color-accent !important;
+//
+//		}
+//	}
+//
+//} // i cannot be fucking bothered trying to style this piece of shit
+
+// toggle ?
+.item-26Dhrx[aria-checked=true] {
+	@extend %fixColour-Dark
+}
+
+// slider
+.bar-2Qqk5Z {
+	& .barFill-23-gu- {
+		background: $color-accent; // ez'd
+	}
+}
+
+// drop down pre
+.css-gvi9bl-control {
+	@extend %fixColour
+}
+.css-6fzn47-control {
+	@extend %fixColour
+}
+// drop down
+.css-3vaxre-menu {
+	@extend %blur
+}
+
+// some card shit
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+	@extend %fixColour;
+}
+//warning
+.warning-3C2pOH {
+	@extend %fixColour
+}
+// drop up 2?
+.colorDefault-2K3EoJ.focused-3afm-j {
+	background-color: $color-accent;
+}
+
+// overlay positioning
+.wrapper-3jrx9n {
+	border:2px solid $color-accent;
+
+	& .disabled-3I9jyo:not(.selected-mKYnfr) {
+		* {
+			color: $color-light
+		}
+	}
+	& label:not(.selected-mKYnfr) {
+		&.option-n0icdO {
+
+			@extend %fixColour
+
+		}
+	}
+	& .selected-mKYnfr {
+		&.option-n0icdO {
+			background: $color-accent;
+		}
+	}
+
+}
+#EditUploadsToolbar {
+	@extend %fixColour-Dark
+}
+#EditUploadsModal {
+	@extend %fixColour
+}
+
+/** STICKER REMOVER  */
+
+.assetWrapper-3GNt0z > canvas, .assetWrapper-3GNt0z > img {
+
+	visibility:hidden;
+	height:0;
+
+}
+.assetWrapper-3GNt0z {
+	height:auto !important;
+}
+.assetWrapper-3GNt0z:before {
+	content:"There is a retarded sticker here";
+	color:white;
+}
+
+
+// bit of trolling
+.subscriptionDetails-1dUmjl {
+	&::before {
+		content:"nitro is dogshit!";
+		color:var(--text-normal);
+	}
+}
+
+
+//css
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+	font-family: "Noto Sans","Whitney","Helvetica Neue","Helvetica","Arial","sans-serif";
+}
+
+
+
+///**
+// * Snippet from #css-snippets applied the 17 Dec 2020 at 21:42:53
+// * Created by LuckFire#4800 (399416615742996480)
+// * Snippet ID: 788926699898142740
+// */
+//.role-2irmRk {
+//	background-color: var(--background-tertiary);
+//	border-radius: 4px;
+//	border: none;
+//	padding: 0 5px 0 8px;
+//	height: 25px;
+//}
+//.role-2irmRk.actionButton-VzECiy {
+//	background-color: var(--background-tertiary);
+//	padding-left: 7px;
+//	padding-right: 7px;
+//}
+//.role-2irmRk .roleCircle-3xAZ1j {
+//	margin-right: 6px;
+//	width: 9px;
+//	height: 9px;
+//}
+//
+///**
+// * Snippet from #css-snippets applied the 12 Feb 2021 at 22:27:53
+// * Created by Marmota#2533 (289112759948410881)
+// * Snippet ID: 809681377645166602
+// */
+//.buttons-3JBrkn {
+//	opacity: 0;
+//	transition: opacity 0.1s;
+//}
+//
+//.channelTextArea-rNsIhG:hover .buttons-3JBrkn {
+//	opacity: 1.0;
+//}
+///** 809681377645166602 */
+//
+///**
+// * Snippet from #css-snippets applied the 16 Feb 2021 at 20:53:25
+// * Created by Doggybootsy#1333 (515780151791976453)
+// * Snippet ID: 811319441719689257
+// */
+//
+///**
+// * Snippet from #css-snippets applied the 16 Feb 2021 at 21:03:27
+// * Created by Doggybootsy#1333 (515780151791976453)
+// * Snippet ID: 811324000557858836
+// */
+//
+///**
+// * Snippet from #css-snippets applied the 16 Feb 2021 at 21:03:46
+// * Created by Yellowsink#8156 (435026627907420161)
+// * Snippet ID: 811210109405495316
+// */
+//.inline-2bgipb.hiddenSpoilers-1ksnR6 { visibility: visible; }
+//.inline-2bgipb.hiddenSpoilers-1ksnR6 img { filter: blur(3rem); }
+//.inline-2bgipb.hiddenSpoilers-1ksnR6::after {
+//	content: "SPOILER";
+//	color: var(--text-normal);
+//	display: block;
+//	text-align: center;
+//	top: calc(50% - 0.5rem);
+//	position: absolute;
+//	width: 100%;
+//	font-weight: bold;
+//}
+///** 811210109405495316
+//
+///**
+// * Snippet from #css-snippets applied the 10 Apr 2021 at 16:42:18
+// * Created by Awish#6969 (671355502399193128)
+// * Snippet ID: 830397884562145290
+// */
+//.theme-dark .input-2VB9rf {
+//	background: transparent;
+//	background-color: #2929295e; /*Yes this is a color code.*/
+//	color: var(--text-normal);
+//}
+//.scroller-zPkAnE{
+//	background: transparent;
+//}
+////.backdrop-1wrmKB{
+////	opacity: .8 !important;
+////}
+//.theme-dark .quickswitcher-3JagVE {
+//	opacity: 0.9;
+//	backdrop-filter: blur(12px);
+//	display: flex;
+//	background-color: #1d1d1d;
+//	background: transparent;
+//	color: var(--text-normal);
+//}
+///** 830397884562145290 */
