@@ -1,3 +1,11 @@
+/**
+* @name Pøz
+* @author Pozm#6946
+* @description Discord theme
+* @version 1.1
+*/
+
+
 $color-light: #181a1f;
 $color-light-darker:scale-color($color-light, $lightness:-30%);
 $color-light-darkerA:rgba($color-light-darker,.7);
@@ -113,7 +121,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	}
 	// old i assume
 	& .input-3ITkQf:checked + .checkbox-1ix_J3 {
-		//background-color: $color-accent !important;
+		background-color: transparent !important;
 		border-color: $color-accent !important;
 		* {
 			color: $color-accent !important;
