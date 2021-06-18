@@ -46,7 +46,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 
 //.cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK)
 ::-webkit-input-placeholder, body, button, input, select, textarea{
-	font-family: 'Noto Sans', sans-serif !important;
+	font-family: "Noto Sans","Whitney","Helvetica Neue","Helvetica","Arial","sans-serif"; !important;
 }
 ::-webkit-scrollbar-track {
 	background-color:$color-light !important;
@@ -290,10 +290,6 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 }
 
 //css
-
-::-webkit-input-placeholder, body, button, input, select, textarea {
-	font-family: "Noto Sans","Whitney","Helvetica Neue","Helvetica","Arial","sans-serif";
-}
 
 
 
