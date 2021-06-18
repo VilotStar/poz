@@ -10,6 +10,14 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	background-color: rgba($color-light,.1) !important;
 	border: solid 1px transparent;
 }
+%BlurUntilHover {
+	transition: filter .4s;
+	filter:blur(8px);
+	&:hover {
+		filter: blur(0)
+	}
+}
+
 %fixColour {
 	background: $color-light;
 }
@@ -264,6 +272,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	}
 }
 
+// they censor the email, phone number, etc. but they don't censor the payment email??? like what is going on in their head?
+.paymentSourceLabel-1lo4Ca {
+	@extend %BlurUntilHover
+}
 
 //css
 
