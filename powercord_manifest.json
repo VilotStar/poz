@@ -1,8 +1,8 @@
 {
     "name": "Pøz",
     "description": "Pozm's theme",
-    "version": "1",
+    "version": "1.1",
     "author": "Pozm#6946",
-    "theme": "theme.scss",
+    "theme": "poz.theme.css",
     "license": "unknown"
 }

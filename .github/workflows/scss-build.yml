@@ -22,7 +22,7 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.4.3
         with:
-          source: theme.scss
+          source: poz.theme.scss
           destination: /tmp/repo-name/assets/css/poz.theme.css
 
       - name: Checkout destination Git branch
