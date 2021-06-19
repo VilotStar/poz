@@ -1,5 +1,5 @@
 # poz
-(Pøz) Lightweight Discord theme meant to not look dogshit like all other themes currently.
+(Pøz) Lightweight Discord theme meant to not look dogshit like all other themes currently **1*.
 
 I feel like most of the other themes go mental and mess with stuff which shouldn't be changed; for example servers layout or window buttons. 
 but with this theme all i want to do is make the colouring better & give it a bit more spice to look more modern in specific areas.
@@ -8,6 +8,10 @@ I will also remove stuff which i find stupid; for example stickers. I cannot thi
 This theme will also aim to provide better security, for example in Subscriptions setting page your email will be willingly shown, but with this theme it is not (unless YOU hover over it).
 
 ![](https://i.imgur.com/I5jmU48.png)
+### expansion
+1. i don't mean to say that they're bad or what ever, but the modifications made to discord are heavy and annoying to undo if you do not like. this theme does not do any major changes and does more minor but still noticable stuff. if you don't want to use the theme, then don't im not one to judge, it's your opinion
+
+apparently i have to say this cause people can't take my subjective view of things.
 
 ## Installation
 ### Powercord
