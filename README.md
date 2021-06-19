@@ -25,7 +25,7 @@ idk try to git clone it.
  * [Channel icons](https://github.com/v-briese/Channel-Icons)
  * [Modern Channel Indicator](https://github.com/Discord-Theme-Addons/modern-channel-indicators)
 ### What is the spotify playing thing at the bottom left?
-It is a feature of [Powercord](powercord.dev)
+It is a feature of [Powercord](https://powercord.dev)
 
 ## Preview screenshots
 default chat
