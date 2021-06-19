@@ -4,7 +4,7 @@
 I feel like most of the other themes either go mental and mess with stuff which shouldn't be changed; for example servers layout or window buttons. 
 but with this theme all i want to do is make the colouring better & give it a bit more spice to look more modern in specific areas.
 
-I will also remove stuff which i find stupid; for example stickers. I cannot think of anything more imaginably more annoying so that is why they are just blocked in this theme.
+I will also remove stuff which i find stupid; for example stickers. I cannot think of anything imaginably more annoying so that is why they are just blocked in this theme.
 This theme will also aim to provide better security, for example in Subscriptions setting page your email will be willingly shown, but with this theme it is not (unless YOU hover over it).
 
 ![](https://i.imgur.com/I5jmU48.png)
