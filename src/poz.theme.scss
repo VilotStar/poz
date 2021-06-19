@@ -169,6 +169,9 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& .tierBody-16Chc9 {
 		@extend %fixColour-lDark
 	}
+	& .premiumIndicator-1XvbfMm,.botTagRegular-2HEhHi {
+		background-color: $color-accent;
+	}
 
 }
 

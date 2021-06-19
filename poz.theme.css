@@ -108,6 +108,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 .theme-dark .wrapper-3WhCwL:hover {
   background: #db5e85;
 }
+.theme-dark .premiumIndicator-1XvbfMm, .theme-dark .botTagRegular-2HEhHi {
+  background-color: #db5e85;
+}
+
 .mediaBarProgress-1xaPtl {
   background-color: #db5e85;
 }
