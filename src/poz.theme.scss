@@ -4,9 +4,8 @@
 * @description Discord theme
 * @version 1.1
 */
-
-
 $color-light: #181a1f;
+$color-lighter: scale-color($color-light, $lightness:10%);;
 $color-light-darker:scale-color($color-light, $lightness:-30%);
 $color-light-darkerA:rgba($color-light-darker,.7);
 $color-dark : #131315;
@@ -27,7 +26,8 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 }
 
 %fixColour {
-	background: $color-light;
+	background: $color-light !important;
+	background-color: $color-light !important;
 }
 %fixColour-Dark {
 	background: $color-dark;
@@ -86,7 +86,6 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	background-color: var(--background-mentioned);
 }
 // trolling 2
-// a
 img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& + h2 > span > .username-1A8OIy {
 		//opacity: 0;
@@ -160,6 +159,9 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& .autocomplete-1vrmpx {
 		@extend %fixColour
 	}
+	& .pageWrapper-1PgVDX {
+		@extend %fixColour-Dark
+	}
 
 }
 .videoControls-2kcYic {
@@ -181,7 +183,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 
 // notes hover / message
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
-	border: 1px solid $color-accent;
+	&:not(.searchBoxInput-K6mkng):not(input[name='invite']) { // scuffed but works.
+		border: 1px solid $color-accent;
+
+	}
 }
 // bypass important
 
@@ -318,8 +323,84 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	@extend %BlurUntilHover
 }
 
-//css
+// make default guild icons have correct colour when hovered
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+	background-color: $color-accent;
+}
+.theme-light {
 
+	& .container-UC8Ug1 {
+		background-color: $color-lighter;
+		& .text-1FOLJS {
+			color:var(--background-accent);
+		}
+	}
 
+	// create a server
+	& .base-1x0h_U {
+		color:var(--status-warning-text);
+	}
 
-// i ddidn't use any of it so it's gone
+	& .colorHeaderSecondary-3Sp3Ft {
+		color:var(--background-tertiary);
+	}
+
+	& .root-1gCeng {
+		box-shadow: 0 0 0 1px $color-dark, 0 2px 10px 0 $color-dark;
+	}
+	& .footer-2gL1pp {
+		box-shadow: 0 0 0 1px $color-dark
+	}
+	.inputWrapper-31_8H8 {
+		@extend %fixColour-Dark;
+		input {
+
+			color: var(--status-warning-text);
+		}
+	}
+}
+.newMessagesBar-265mhP {
+	background-color: $color-accent;
+}
+
+// verified colour change
+.flowerStar-1GeTsn,.selectedIcon-3uS11H {
+	* {
+
+		fill: $color-accent
+	}
+}
+// fuck off.
+.icon-27yU2q[src*="cdn.discordapp.com/icons/538759280057122817"] {
+	content:url("https://powercord.dev/assets/powercord.560b7dc8.png")
+}
+
+// join guild
+
+.sampleLink-2NLvZg {
+	color: var(--status-warning-text);
+}
+
+// search (ctrl + k) input
+.input-2VB9rf {
+	@extend %fixColour-Dark
+}
+
+// invite to guild (and prob other stuff) colour change
+.colorBrand-ROmMP1 {
+	color:$color-accent
+}
+
+#permissions-modal div {
+	@extend %fixColour
+}
+
+//discover search
+
+.search-1iTphC .searchBox-2_mAlO {
+	@extend %fixColour
+}
+
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
+	box-shadow: 0 0 0 1px $color-accent, 0 0 0 2px scale-color($color-accent,$lightness:20%), 0 0 0 3px scale-color($color-accent,$lightness:10%);
+}
