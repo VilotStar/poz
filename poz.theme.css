@@ -6,7 +6,7 @@
 * @version 1.1.4
 * @source https://github.com/pozm/poz
 */
-.css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic {
+.userPopout-xaxa6l, .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic, .theme-dark .root-1gCeng {
   backdrop-filter: blur(24px);
   background-color: rgba(24, 26, 31, 0.1) !important;
   border: solid 1px transparent;
@@ -20,12 +20,12 @@
   filter: blur(0);
 }
 
-.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
+.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .footer-2gL1pp, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
   background: #181a1f !important;
   background-color: #181a1f !important;
 }
 
-.wrapper-3EGhDO .colorable-1bkp8v.primaryDark-3mSFDl, .input-2VB9rf, .theme-light .inputWrapper-31_8H8, #EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .perk-2WeBWW, .theme-dark .pageWrapper-1PgVDX, .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
+.header-2V-4Sw, .wrapper-3EGhDO .colorable-1bkp8v.primaryDark-3mSFDl, .input-2VB9rf, .theme-light .inputWrapper-31_8H8, #EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .perk-2WeBWW, .theme-dark .pageWrapper-1PgVDX, .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
   background: #131315;
 }
 
@@ -53,11 +53,11 @@
   font-family: "Noto Sans", "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" !important;
 }
 
-::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-track {
   background-color: #181a1f !important;
 }
 
-.auto-Ge5KZx::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #b32853 !important;
 }
 
@@ -297,6 +297,21 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 
 .search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
   box-shadow: 0 0 0 1px #db5e85, 0 0 0 2px #e27e9d, 0 0 0 3px #df6e91;
+}
+
+.panels-j1Uci_ {
+  box-shadow: 0 -10px 7px 8px #181a1f;
+}
+
+#channels {
+  border-radius: 8px 8px 0 0;
+}
+
+.userPopout-xaxa6l > div, .userPopout-xaxa6l .headerTop-2cWpdB {
+  background: #131315;
+}
+.userPopout-xaxa6l .banner-2QYc2d {
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=poz.theme.css.map */

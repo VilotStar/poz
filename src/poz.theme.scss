@@ -57,10 +57,10 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 ::-webkit-input-placeholder, body, button, input, select, textarea{
 	font-family: "Noto Sans","Whitney","Helvetica Neue","Helvetica","Arial","sans-serif" !important;
 }
-::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-track {
 	background-color:$color-light !important;
 }
-.auto-Ge5KZx::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	background-color: $color-accent-dark !important;
 }
 .modeUnread-1qO3K1 {
@@ -130,7 +130,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 		}
 	}
 	& .root-1gCeng {
-		@extend %fixColour
+		@extend %blur
 	}
 	& .footer-2gL1pp {
 		@extend %fixColour
@@ -508,4 +508,38 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& .colorable-1bkp8v.primaryDark-3mSFDl {
 		@extend %fixColour-Dark
 	}
+}
+
+
+// user panel
+.panels-j1Uci_ {
+	box-shadow: 0 -10px 7px 8px #181a1f;
+}
+// guild name header
+.header-2V-4Sw {
+	@extend %fixColour-Dark
+}
+// i presume this is the selector regardless of client
+#channels {
+	//margin-top: 1em;
+	border-radius: 8px 8px 0 0;
+	//@extend %fixColour
+}
+.container-3w7J-x {
+	//@extend %fixColour-Dark
+}
+.userPopout-xaxa6l {
+	& > div, .headerTop-2cWpdB {
+
+		background: $color-dark;
+	}
+	@extend %blur;
+	.banner-2QYc2d {
+		opacity: .8;
+	}
+}
+
+// full popout user
+.body-r6_QPy, .topSection-y3p-_D {
+	//background-color: initial;
 }
