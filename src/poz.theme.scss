@@ -186,7 +186,21 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	//}
 
 }
+// yea you guessed it, another checkbox
+.item-1tOPte {
+	// wow really bad sass! i can't wait for another kid in the powercord discord to mald!
+	&:not(.focused-3afm-j) {
 
+		.checkbox-3s5GYZ {
+			color:$color-accent !important;
+		}
+	}
+	&.focused-3afm-j {
+		.check-1JyqgN {
+			color:$color-accent !important;
+		}
+	}
+}
 .videoControls-2kcYic {
 	@extend %blur
 }
@@ -211,8 +225,6 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 
 	}
 }
-// bypass important
-
 .backdrop-1wrmKB {
 	background: rgba($color-dark,.56) !important;
 	backdrop-filter: blur(2px);

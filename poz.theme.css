@@ -116,6 +116,13 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   border-color: #db5e85 !important;
 }
 
+.item-1tOPte:not(.focused-3afm-j) .checkbox-3s5GYZ {
+  color: #db5e85 !important;
+}
+.item-1tOPte.focused-3afm-j .check-1JyqgN {
+  color: #db5e85 !important;
+}
+
 .mediaBarProgress-1xaPtl {
   background-color: #db5e85;
 }
