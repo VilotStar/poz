@@ -12,11 +12,11 @@
   border: solid 1px transparent;
 }
 
-.paymentSourceLabel-1lo4Ca {
+.paymentSourceLabel-1lo4Ca, .cardIcon-3U4mwZ + div > .subText-V8PTt8 {
   transition: filter 0.4s;
   filter: blur(8px);
 }
-.paymentSourceLabel-1lo4Ca:hover {
+.paymentSourceLabel-1lo4Ca:hover, .cardIcon-3U4mwZ + div > .subText-V8PTt8:hover {
   filter: blur(0);
 }
 
@@ -29,7 +29,7 @@
   background: #131315;
 }
 
-.theme-dark .tierBody-16Chc9 {
+.expandedInfo-3kfShd, .theme-dark .tierBody-16Chc9 {
   background: #16171c !important;
 }
 
