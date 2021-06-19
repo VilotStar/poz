@@ -19,7 +19,15 @@ download poz.theme.css and put it into your themes folder. (if it doesn't work r
 ### Anything else
 idk try to git clone it.
 
-## preview screenshots
+## Other notable information
+
+### Other themes i am using in conjunction with this
+ * [Channel icons](https://github.com/v-briese/Channel-Icons)
+ * [Modern Channel Indicator](https://github.com/Discord-Theme-Addons/modern-channel-indicators)
+### What is the spotify playing thing at the bottom left?
+It is a feature of [Powercord](powercord.dev)
+
+## Preview screenshots
 default chat
 ![](https://i.imgur.com/7XKwP9L.png)
 
