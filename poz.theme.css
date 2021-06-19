@@ -3,7 +3,8 @@
 * @name Pøz
 * @author Pozm#6946
 * @description Discord theme
-* @version 1.1.3
+* @version 1.1.4
+* @source https://github.com/pozm/poz
 */
 .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic {
   backdrop-filter: blur(24px);
@@ -19,7 +20,7 @@
   filter: blur(0);
 }
 
-.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-6fzn47-control, .css-gvi9bl-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
+.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
   background: #181a1f !important;
   background-color: #181a1f !important;
 }
@@ -257,6 +258,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 
 .colorBrand-ROmMP1 {
   color: #db5e85;
+}
+
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+  color: var(--status-danger-text);
 }
 
 .search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
