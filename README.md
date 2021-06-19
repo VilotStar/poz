@@ -27,6 +27,13 @@ idk try to git clone it.
 ### What is the spotify playing thing at the bottom left?
 It is a feature of [Powercord](https://powercord.dev)
 
+### Useful javascript for collecting selectors
+When an element is only styled when hovered or smth else, you can use this javascript to pause after 3 seconds to make it so you can grab out the element picker and look at it's styling
+```js
+td = (t=3e3) => {setTimeout(()=>{debugger},t)}
+```
+to use just do td() or if you want a longer delay put in the milliseconds as the first parameter
+
 ## Preview screenshots
 default chat
 ![](https://i.imgur.com/7XKwP9L.png)
