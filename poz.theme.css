@@ -25,8 +25,12 @@
   background-color: #181a1f !important;
 }
 
-.wrapper-3EGhDO .colorable-1bkp8v.primaryDark-3mSFDl, .input-2VB9rf, .theme-light .inputWrapper-31_8H8, #EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .pageWrapper-1PgVDX, .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
+.wrapper-3EGhDO .colorable-1bkp8v.primaryDark-3mSFDl, .input-2VB9rf, .theme-light .inputWrapper-31_8H8, #EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .perk-2WeBWW, .theme-dark .pageWrapper-1PgVDX, .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
   background: #131315;
+}
+
+.theme-dark .tierBody-16Chc9 {
+  background: #16171c;
 }
 
 :root {
