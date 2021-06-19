@@ -9,7 +9,7 @@ This theme will also aim to provide better security, for example in Subscription
 
 ![](https://i.imgur.com/I5jmU48.png)
 ### expansion
-1. i don't mean to say that they're bad or what ever, but the modifications made to discord are heavy and annoying to undo if you do not like. this theme does not do any major changes and does more minor but still noticable stuff. if you don't want to use the theme, then don't im not one to judge, it's your opinion
+1. i don't mean to say that they're bad or what ever, but the modifications made to discord are heavy and annoying to undo if you do not like. this theme does not do any major changes and does more minor but still noticable stuff. if you don't want to use the theme, then don't im not one to judge, it's your opinion -- To elaborate i do not think that they're actually bad in the regard of theming but i do not like the major things which they change and obviously if you do then that's fine what ever.
 
 apparently i have to say this cause people can't take my subjective view of things.
 
