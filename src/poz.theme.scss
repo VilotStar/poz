@@ -172,6 +172,18 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& .premiumIndicator-1XvbfMm,.botTagRegular-2HEhHi {
 		background-color: $color-accent;
 	}
+	// another bloody check box (used when purchasing a gift)
+	& .planOption-3m2svN {
+		&[aria-checked="true"] {
+			.checkbox-1ix_J3 {
+				background-color: $color-accent !important;
+				border-color: $color-accent !important;
+			}
+		}
+	}
+	//& .checkbox-1ix_J3 {
+	//	background-color: $color-accent;
+	//}
 
 }
 
@@ -236,7 +248,11 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 
 //invert button
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-	color: $color-accent
+	color: $color-accent;
+	&:hover {
+		// lol u gonna mald?
+		background-color: mix(white,$color-accent,80);
+	}
 }
 // perk list in nitro vs nitro classic
 .perkListItemIcon-2B4aA2.hasPerkIcon-JJ5Ezo {

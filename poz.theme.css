@@ -111,6 +111,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 .theme-dark .premiumIndicator-1XvbfMm, .theme-dark .botTagRegular-2HEhHi {
   background-color: #db5e85;
 }
+.theme-dark .planOption-3m2svN[aria-checked=true] .checkbox-1ix_J3 {
+  background-color: #db5e85 !important;
+  border-color: #db5e85 !important;
+}
 
 .mediaBarProgress-1xaPtl {
   background-color: #db5e85;
@@ -161,6 +165,9 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
   color: #db5e85;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: #f8dfe7;
 }
 
 .perkListItemIcon-2B4aA2.hasPerkIcon-JJ5Ezo {
