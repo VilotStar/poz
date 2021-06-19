@@ -34,7 +34,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	background: $color-dark;
 }
 %fixColour-lDark {
-	background: scale-color($color-light,$lightness:-10%);
+	background: scale-color($color-light,$lightness:-10%) !important;
 }
 
 :root {
@@ -171,6 +171,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	}
 
 }
+
 .videoControls-2kcYic {
 	@extend %blur
 }
@@ -224,6 +225,12 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
 	background-color: $color-accent-dark;
 }
+//button 3? used for subscriptions tab
+.premiumTabItem-1QTfBr[aria-selected=true] {
+	// we do a little bit of trolling (to overwrite the important)
+	--brand-experiment: #{$color-accent};
+}
+
 //invert button
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
 	color: $color-accent
