@@ -2,7 +2,7 @@
 * @name Pøz
 * @author Pozm#6946
 * @description Discord theme
-* @version 1.1.2
+* @version 1.1.3
 */
 $color-light: #181a1f;
 $color-lighter: scale-color($color-light, $lightness:10%);;
@@ -201,12 +201,31 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	color:$color-accent;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+	&:disabled {
+		background-color: $color-accent;
+	}
 	&:hover {
 		background-color: rgba($color-accent,.5);
 
 	}
 	background-color: $color-accent;
 }
+// button 2 ? (used for screenshare fps & res)
+.selectorButtonSelected-t5V9On {
+	background-color: $color-accent;
+}
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+	background-color: $color-accent-dark;
+}
+//invert button
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+	color: $color-accent
+}
+// perk list in nitro vs nitro classic
+.perkListItemIcon-2B4aA2.hasPerkIcon-JJ5Ezo {
+	color: $color-accent;
+}
+
 // i hope this is the switch element
 //.control-2BBjec {
 //
@@ -228,6 +247,23 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 .bar-2Qqk5Z {
 	& .barFill-23-gu- {
 		background: $color-accent; // ez'd
+	}
+}
+
+// screenshare window selector
+.sourceThumbnail-27dolk {
+	&:hover {
+		box-shadow: inset 0 0 0 2px $color-accent !important;
+	}
+	&.selected-1nOkyc {
+		box-shadow: inset 0 0 0 2px $color-accent !important;
+	}
+}
+.tile-2w4k5N:hover .sourceThumbnail-27dolk {
+	box-shadow: inset 0 0 0 2px $color-accent !important;
+
+	&.selected-1nOkyc {
+		box-shadow: inset 0 0 0 2px $color-accent !important;
 	}
 }
 
@@ -403,4 +439,12 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 
 .search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
 	box-shadow: 0 0 0 1px $color-accent, 0 0 0 2px scale-color($color-accent,$lightness:20%), 0 0 0 3px scale-color($color-accent,$lightness:10%);
+}
+
+//vc buttons
+
+.wrapper-3EGhDO {
+	& .colorable-1bkp8v.primaryDark-3mSFDl {
+		@extend %fixColour-Dark
+	}
 }

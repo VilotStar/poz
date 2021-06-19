@@ -3,7 +3,7 @@
 * @name Pøz
 * @author Pozm#6946
 * @description Discord theme
-* @version 1.1
+* @version 1.1.3
 */
 .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic {
   backdrop-filter: blur(24px);
@@ -24,7 +24,7 @@
   background-color: #181a1f !important;
 }
 
-.input-2VB9rf, .theme-light .inputWrapper-31_8H8, #EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .pageWrapper-1PgVDX, .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
+.wrapper-3EGhDO .colorable-1bkp8v.primaryDark-3mSFDl, .input-2VB9rf, .theme-light .inputWrapper-31_8H8, #EditUploadsToolbar, .item-26Dhrx[aria-checked=true], .theme-dark .pageWrapper-1PgVDX, .theme-dark .footer-3mqk7D, .theme-dark .uploadModal-2ifh8j {
   background: #131315;
 }
 
@@ -131,12 +131,45 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
   background-color: #db5e85;
 }
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+  background-color: #db5e85;
+}
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: rgba(219, 94, 133, 0.5);
 }
 
+.selectorButtonSelected-t5V9On {
+  background-color: #db5e85;
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: #b32853;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+  color: #db5e85;
+}
+
+.perkListItemIcon-2B4aA2.hasPerkIcon-JJ5Ezo {
+  color: #db5e85;
+}
+
 .bar-2Qqk5Z .barFill-23-gu- {
   background: #db5e85;
+}
+
+.sourceThumbnail-27dolk:hover {
+  box-shadow: inset 0 0 0 2px #db5e85 !important;
+}
+.sourceThumbnail-27dolk.selected-1nOkyc {
+  box-shadow: inset 0 0 0 2px #db5e85 !important;
+}
+
+.tile-2w4k5N:hover .sourceThumbnail-27dolk {
+  box-shadow: inset 0 0 0 2px #db5e85 !important;
+}
+.tile-2w4k5N:hover .sourceThumbnail-27dolk.selected-1nOkyc {
+  box-shadow: inset 0 0 0 2px #db5e85 !important;
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j {
