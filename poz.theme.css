@@ -116,6 +116,11 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   border-color: #db5e85 !important;
 }
 
+.reaction-1hd86g.reactionMe-wv5HKu {
+  border-color: #db5e85;
+  background-color: rgba(219, 94, 133, 0.06);
+}
+
 .item-1tOPte:not(.focused-3afm-j) .checkbox-3s5GYZ {
   color: #db5e85 !important;
 }

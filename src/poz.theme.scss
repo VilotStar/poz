@@ -186,6 +186,14 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	//}
 
 }
+
+// im sorry that i cannot be bothered going through the like 100 different vars they have; mald more.
+.reaction-1hd86g.reactionMe-wv5HKu {
+	border-color:$color-accent;
+	background-color :rgba($color-accent,.06);
+
+}
+
 // yea you guessed it, another checkbox
 .item-1tOPte {
 	// wow really bad sass! i can't wait for another kid in the powercord discord to mald!
@@ -222,7 +230,6 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
 	&:not(.searchBoxInput-K6mkng):not(input[name='invite']) { // scuffed but works.
 		border: 1px solid $color-accent;
-
 	}
 }
 .backdrop-1wrmKB {
