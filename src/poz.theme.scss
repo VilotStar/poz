@@ -51,6 +51,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	--background-mentioned-bar: #{$color-accent};
 	--indicator-selected-border: #{$color-accent};
 	--indicator-selected-background:#{rgba($color-accent,.1)};
+	--indicator-selected-hover:#{rgba($color-accent,.2)}; // not lazy i swear
 }
 
 //.cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK)

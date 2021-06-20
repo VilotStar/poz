@@ -47,6 +47,7 @@
   --background-mentioned-bar: #db5e85;
   --indicator-selected-border: #db5e85;
   --indicator-selected-background:rgba(219, 94, 133, 0.1);
+  --indicator-selected-hover:rgba(219, 94, 133, 0.2);
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
