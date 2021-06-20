@@ -8,7 +8,7 @@
 */
 .userPopout-xaxa6l, .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic, .theme-dark .root-1gCeng {
   backdrop-filter: blur(24px);
-  background-color: rgba(24, 26, 31, 0.1) !important;
+  background-color: rgba(63, 40, 51, 0.1) !important;
   border: solid 1px transparent;
 }
 
@@ -20,7 +20,7 @@
   filter: blur(0);
 }
 
-.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .footer-2gL1pp, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
+.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
   background: #181a1f !important;
   background-color: #181a1f !important;
 }
@@ -88,7 +88,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   font-size: 0;
 }
 img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username-1A8OIy:before {
-  content: "Pøzm";
+  content: "Pøz";
   opacity: 1;
   color: white;
   font-size: initial;
@@ -101,6 +101,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 .theme-dark .input-3ITkQf:checked + .checkbox-1ix_J3 * {
   color: #db5e85 !important;
   fill: #db5e85 !important;
+}
+.theme-dark .footer-2gL1pp {
+  background: transparent !important;
+  background-color: transparent !important;
 }
 .theme-dark .wrapper-3WhCwL {
   background: #b32853;
@@ -279,6 +283,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   fill: #db5e85;
 }
 
+.editingContainer-1iOrsV {
+  background: transparent !important;
+}
+
 .icon-27yU2q[src*="cdn.discordapp.com/icons/538759280057122817"] {
   content: url("https://powercord.dev/assets/powercord.560b7dc8.png");
 }
@@ -307,7 +315,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   border-radius: 8px 8px 0 0;
 }
 
-.userPopout-xaxa6l > div, .userPopout-xaxa6l .headerTop-2cWpdB {
+.userPopout-xaxa6l > div, .userPopout-xaxa6l .headerTop-2cWpdB, .userPopout-xaxa6l .aboutMeSection---MkQa {
   background: #131315;
 }
 .userPopout-xaxa6l .banner-2QYc2d {

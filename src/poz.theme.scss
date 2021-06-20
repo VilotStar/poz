@@ -15,7 +15,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 
 %blur {
 	backdrop-filter: blur(24px);
-	background-color: rgba($color-light,.1) !important;
+	background-color: rgba( mix($color-light,$color-accent,80),.1) !important;
 	border: solid 1px transparent;
 }
 %BlurUntilHover {
@@ -91,7 +91,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& + h2 > span > .username-1A8OIy {
 		//opacity: 0;
 		&:before {
-			content: "Pøzm";
+			content: "Pøz";
 			opacity: 1;
 			color: white;
 			font-size: initial;
@@ -133,7 +133,8 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 		@extend %blur
 	}
 	& .footer-2gL1pp {
-		@extend %fixColour
+		background: transparent !important;
+		background-color: transparent !important; // cba to check which one it uses
 	}
 	& .uploadModal-2ifh8j {
 		@extend %fixColour-Dark
@@ -465,6 +466,12 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 		fill: $color-accent
 	}
 }
+
+// profile avatar upload
+.editingContainer-1iOrsV {
+	background: transparent !important; // overwrite
+}
+
 // fuck off.
 .icon-27yU2q[src*="cdn.discordapp.com/icons/538759280057122817"] {
 	content:url("https://powercord.dev/assets/powercord.560b7dc8.png")
