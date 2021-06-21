@@ -13,6 +13,7 @@ $color-dark : #131315;
 $color-accent: #db5e85;
 $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 
+
 %blur {
 	backdrop-filter: blur(24px);
 	background-color: rgba( mix($color-light,$color-accent,80),.1) !important;
@@ -25,7 +26,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 		filter: blur(0)
 	}
 }
-
+//
 %fixColour {
 	background: $color-light !important;
 	background-color: $color-light !important;
@@ -52,6 +53,11 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	--indicator-selected-border: #{$color-accent};
 	--indicator-selected-background:#{rgba($color-accent,.1)};
 	--indicator-selected-hover:#{rgba($color-accent,.2)}; // not lazy i swear
+
+	/*other settings 4 u to configure (compiled css)*/
+
+	--ClydeReplaceAvatar:url("https://i.imgur.com/V2fSIA4.png") /* Avatar for the clyde replace */;
+	--ClydeReplaceName:"Pøz" /* username for the clyde replace */;
 }
 
 //.cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK)
@@ -92,7 +98,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	& + h2 > span > .username-1A8OIy {
 		//opacity: 0;
 		&:before {
-			content: "Pøz";
+			content: var(--ClydeReplaceName);
 			opacity: 1;
 			color: white;
 			font-size: initial;
@@ -100,7 +106,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 
 		font-size: 0;
 	}
-	content: url("https://cdn.discordapp.com/avatars/288062966803333120/53e3a79a523939fd3b30ddcd8d464990.webp?size=2048")
+	content: var(--ClydeReplaceAvatar);
 }
 
 // make shit correct colour;
@@ -550,4 +556,9 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 // full popout user
 .body-r6_QPy, .topSection-y3p-_D {
 	//background-color: initial;
+}
+
+// code blocks with better code blocks
+.hljs {
+	background-color: $color-light !important;
 }
