@@ -16,6 +16,19 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 // scss settings
 $DisableStickers: false;
 
+/*	settings	*/
+
+/*	--------	*/
+@if($DisableStickers) {
+
+	/* Stickers are disabled */
+
+} @else {
+
+	/* Stickers are enabled */
+
+}
+
 %blur {
 	backdrop-filter: blur(24px);
 	background-color: rgba( mix($color-light,$color-accent,80),.1) !important;
@@ -63,9 +76,9 @@ $DisableStickers: false;
 	--ClydeReplaceName:"Pøz" /* username for the clyde replace */;
 }
 
-//.cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK)
+
 ::-webkit-input-placeholder, body, button, input, select, textarea{
-	font-family: "Noto Sans","Whitney","Helvetica Neue","Helvetica","Arial","sans-serif" !important;
+	font-family: "Noto Sans","Whitney","Helvetica Neue","Helvetica","Arial","sans-serif";
 }
 .auto-Ge5KZx::-webkit-scrollbar-track {
 	background-color:$color-light !important;

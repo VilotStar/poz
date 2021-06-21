@@ -5,6 +5,9 @@
 * @version 1.1.4
 * @source https://github.com/pozm/poz
 */
+/*	settings	*/
+/*	--------	*/
+/* Stickers are enabled */
 .userPopout-xaxa6l, .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic, .theme-dark .root-1gCeng {
   backdrop-filter: blur(24px);
   background-color: rgba(63, 40, 51, 0.1) !important;
@@ -54,7 +57,7 @@
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
-  font-family: "Noto Sans", "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" !important;
+  font-family: "Noto Sans", "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
 .auto-Ge5KZx::-webkit-scrollbar-track {
