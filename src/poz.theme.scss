@@ -69,6 +69,7 @@ $DisableStickers: false;
 	--indicator-selected-background:#{rgba($color-accent,.1)};
 	--indicator-selected-hover:#{rgba($color-accent,.2)}; // not lazy i swear
 	--text-link:#{$color-accent};
+	--brand-experiment:#{$color-accent};
 
 	/*other settings 4 u to configure (compiled css)*/
 
@@ -89,6 +90,12 @@ $DisableStickers: false;
 .modeUnread-1qO3K1 {
 
 }
+
+// upload modal
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+	background: $color-accent !important;
+}
+
 .ephemeral-1PsL1r {
 	&:before {
 		background-color: $color-accent
@@ -300,6 +307,11 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 // perk list in nitro vs nitro classic
 .perkListItemIcon-2B4aA2.hasPerkIcon-JJ5Ezo {
 	color: $color-accent;
+}
+// uploading progress bar
+.progressBar-3u8FBM {
+	background-color: $color-accent !important;
+	background: $color-accent;
 }
 
 // i hope this is the switch element
@@ -579,4 +591,8 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 // code blocks with better code blocks
 .hljs {
 	background-color: $color-light !important;
+}
+// message attachment icons colour fix
+.icons-1w691d .icon-kyxXVr {
+	filter: hue-rotate(70deg) !important;
 }

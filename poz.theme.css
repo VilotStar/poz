@@ -51,6 +51,7 @@
   --indicator-selected-background:rgba(219, 94, 133, 0.1);
   --indicator-selected-hover:rgba(219, 94, 133, 0.2);
   --text-link:#db5e85;
+  --brand-experiment:#db5e85;
   /*other settings 4 u to configure (compiled css)*/
   --ClydeReplaceAvatar:url("https://i.imgur.com/V2fSIA4.png") /* Avatar for the clyde replace */;
   --ClydeReplaceName:"Pøz" /* username for the clyde replace */;
@@ -66,6 +67,10 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #b32853 !important;
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+  background: #db5e85 !important;
 }
 
 .ephemeral-1PsL1r {
@@ -197,6 +202,11 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   color: #db5e85;
 }
 
+.progressBar-3u8FBM {
+  background-color: #db5e85 !important;
+  background: #db5e85;
+}
+
 .bar-2Qqk5Z .barFill-23-gu- {
   background: #db5e85;
 }
@@ -316,6 +326,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 
 .hljs {
   background-color: #181a1f !important;
+}
+
+.icons-1w691d .icon-kyxXVr {
+  filter: hue-rotate(70deg) !important;
 }
 
 /*# sourceMappingURL=poz.theme.css.map */
