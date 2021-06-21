@@ -13,6 +13,8 @@ $color-dark : #131315;
 $color-accent: #db5e85;
 $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 
+// scss settings
+$DisableStickers: false;
 
 %blur {
 	backdrop-filter: blur(24px);
@@ -53,6 +55,7 @@ $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 	--indicator-selected-border: #{$color-accent};
 	--indicator-selected-background:#{rgba($color-accent,.1)};
 	--indicator-selected-hover:#{rgba($color-accent,.2)}; // not lazy i swear
+	--text-link:#{$color-accent};
 
 	/*other settings 4 u to configure (compiled css)*/
 
@@ -235,7 +238,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 }
 
 // notes hover / message
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus,.input-cIJ7To:hover {
 	&:not(.searchBoxInput-K6mkng):not(input[name='invite']) { // scuffed but works.
 		border: 1px solid $color-accent;
 	}
@@ -387,20 +390,22 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	@extend %fixColour
 }
 
+@if($DisableStickers) {
 /** STICKER REMOVER  */
 
-.assetWrapper-3GNt0z > canvas, .assetWrapper-3GNt0z > img {
+	.assetWrapper-3GNt0z > canvas, .assetWrapper-3GNt0z > img {
 
-	visibility:hidden;
-	height:0;
+		visibility:hidden;
+		height:0;
 
-}
-.assetWrapper-3GNt0z {
-	height:auto !important;
-}
-.assetWrapper-3GNt0z:before {
-	content:"There is a retarded sticker here (removed by Pøz)";
-	color:white;
+	}
+	.assetWrapper-3GNt0z {
+		height:auto !important;
+	}
+	.assetWrapper-3GNt0z:before {
+		content:"There is a retarded sticker here (removed by Pøz)";
+		color:white;
+	}
 }
 // purchase history expanded
 .expandedInfo-3kfShd {

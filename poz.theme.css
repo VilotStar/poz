@@ -47,6 +47,7 @@
   --indicator-selected-border: #db5e85;
   --indicator-selected-background:rgba(219, 94, 133, 0.1);
   --indicator-selected-hover:rgba(219, 94, 133, 0.2);
+  --text-link:#db5e85;
   /*other settings 4 u to configure (compiled css)*/
   --ClydeReplaceAvatar:url("https://i.imgur.com/V2fSIA4.png") /* Avatar for the clyde replace */;
   --ClydeReplaceName:"Pøz" /* username for the clyde replace */;
@@ -146,7 +147,7 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   background-color: #db5e85 !important;
 }
 
-.input-cIJ7To.focused-1mmYsC:not(.searchBoxInput-K6mkng):not(input[name=invite]), .input-cIJ7To:focus:not(.searchBoxInput-K6mkng):not(input[name=invite]) {
+.input-cIJ7To.focused-1mmYsC:not(.searchBoxInput-K6mkng):not(input[name=invite]), .input-cIJ7To:focus:not(.searchBoxInput-K6mkng):not(input[name=invite]), .input-cIJ7To:hover:not(.searchBoxInput-K6mkng):not(input[name=invite]) {
   border: 1px solid #db5e85;
 }
 
@@ -230,21 +231,6 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 }
 .wrapper-3jrx9n .selected-mKYnfr.option-n0icdO {
   background: #db5e85;
-}
-
-/** STICKER REMOVER  */
-.assetWrapper-3GNt0z > canvas, .assetWrapper-3GNt0z > img {
-  visibility: hidden;
-  height: 0;
-}
-
-.assetWrapper-3GNt0z {
-  height: auto !important;
-}
-
-.assetWrapper-3GNt0z:before {
-  content: "There is a retarded sticker here (removed by Pøz)";
-  color: white;
 }
 
 .subscriptionDetails-1dUmjl::before {
