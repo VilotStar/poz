@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileName$:$FileParentDir$/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="" />
+            <option name="name" value="" />
+            <option name="regExp" value="" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="-ec JABjACAAPQAgAGMAYQB0ACAAcABvAHoALgB0AGgAZQBtAGUALgBjAHMAcwAgAHwAIABPAHUAdAAtAFMAdAByAGkAbgBnADsAJAByAD0AJABjACAALQByAGUAcABsAGEAYwBlACAAIgBAAGMAaABhAHIAcwBlAHQAIABgACIAVQBUAEYALQA4AGAAIgA7ACIALAAgACIAIgA7ACQAKABpAGYAIAAoACQAYwAgAC0AbgBlACAAJAByACkAIAB7ACAAcwBlAHQALQBjAG8AbgB0AGUAbgB0ACAALQBwAGEAdABoACAALgBcAHAAbwB6AC4AdABoAGUAbQBlAC4AYwBzAHMAIAAtAHYAYQBsAHUAZQAgACQAcgAuAFQAcgBpAG0AKAApACAAfQApAA==" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="css charset remover" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="powershell" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="a" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>
