@@ -8,7 +8,7 @@
 /*	settings	*/
 /*	--------	*/
 /* Stickers are enabled */
-.userPopout-xaxa6l, .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic, .theme-dark .root-1gCeng {
+.container-2VW0UT.elevationHigh-1PneE4, .gifTag-31zFY8, .userPopout-xaxa6l, .css-3vaxre-menu, .unicodeShortcut-15J8Ck, .videoControls-2kcYic, .theme-dark .root-1gCeng {
   backdrop-filter: blur(24px);
   background-color: rgba(63, 40, 51, 0.1) !important;
   border: solid 1px transparent;
@@ -330,6 +330,19 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
 
 .icons-1w691d .icon-kyxXVr {
   filter: hue-rotate(70deg) !important;
+}
+
+.gifTag-31zFY8 {
+  border-radius: 0.4em;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+  filter: hue-rotate(70deg);
+  /* i swear im not paranoid please listen to meeeeeeeeeeeee*/
+}
+
+.betaBadge-1Ve-yb {
+  background-color: #db5e85 !important;
 }
 
 /*# sourceMappingURL=poz.theme.css.map */

@@ -12,7 +12,7 @@ $color-light-darkerA:rgba($color-light-darker,.7);
 $color-dark : #131315;
 $color-accent: #db5e85;
 $color-accent-dark: scale-color($color-accent, $lightness:-30%);
-
+$color-accent-light:scale-color($color-accent,$lightness:20%);
 // scss settings
 $DisableStickers: false;
 
@@ -595,4 +595,17 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 // message attachment icons colour fix
 .icons-1w691d .icon-kyxXVr {
 	filter: hue-rotate(70deg) !important;
+}
+.gifTag-31zFY8 {
+	@extend %blur;
+	border-radius: .4em;
+}
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+	filter: hue-rotate(70deg); /* i swear im not paranoid please listen to meeeeeeeeeeeee*/
+}
+.betaBadge-1Ve-yb {
+	background-color: $color-accent !important;
+}
+.container-2VW0UT.elevationHigh-1PneE4 {
+	@extend %blur
 }
