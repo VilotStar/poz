@@ -19,7 +19,7 @@ apparently i have to say this cause people can't take my subjective view of thin
 just git clone the repo into your themes folder.
 
 ### Better Discord
-download poz.theme.css and put it into your themes folder. (if it doesn't work remove the first line because im too lazy 2 make the compiler not add it)
+download poz.theme.css and put it into your themes folder. ~~(if it doesn't work remove the first line because im too lazy 2 make the compiler not add it)~~
 
 ### Anything else
 idk try to git clone it.
