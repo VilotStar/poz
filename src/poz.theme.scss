@@ -13,6 +13,10 @@ $color-dark : #131315;
 $color-accent: #db5e85;
 $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 $color-accent-light:scale-color($color-accent,$lightness:20%);
+
+/*discord*/
+$color-user-popout:#131315;
+
 // scss settings
 $DisableStickers: false;
 
@@ -554,6 +558,9 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	}
 }
 
+.bodyInnerWrapper-26fQXj {
+	background-color: $color-user-popout !important;
+}
 
 // user panel
 .panels-j1Uci_ {
@@ -608,4 +615,10 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 }
 .container-2VW0UT.elevationHigh-1PneE4 {
 	@extend %blur
+}
+
+.bodyInnerWrapper-26fQXj {
+	// i can't overwrite the background colour since it's important on the style tag; so i will just have to make it look nice ig.
+	border-radius: 8px;
+	padding-bottom: 1px;
 }
