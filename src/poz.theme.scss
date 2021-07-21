@@ -136,6 +136,21 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	}
 	content: var(--ClydeReplaceAvatar);
 }
+div[aria-label="Clyde"] {
+	& .headerTagUsernameNoNickname-2-Y5Ct {
+		&::before{
+			content:var(--ClydeReplaceName);
+			opacity: 1;
+			color: white;
+			font-size: 20px;
+		}
+		font-size: 0;
+	}
+	& .banner-2QYc2d.popoutBanner-19WKGg {
+		background-color: $color-accent !important;
+	}
+}
+
 
 // make shit correct colour;
 

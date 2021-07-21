@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
 * @name Pøz
 * @author Pozm#6946
@@ -105,6 +106,19 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   opacity: 1;
   color: white;
   font-size: initial;
+}
+
+div[aria-label=Clyde] .headerTagUsernameNoNickname-2-Y5Ct {
+  font-size: 0;
+}
+div[aria-label=Clyde] .headerTagUsernameNoNickname-2-Y5Ct::before {
+  content: var(--ClydeReplaceName);
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+}
+div[aria-label=Clyde] .banner-2QYc2d.popoutBanner-19WKGg {
+  background-color: #db5e85 !important;
 }
 
 .theme-dark .input-3ITkQf:checked + .checkbox-1ix_J3 {
