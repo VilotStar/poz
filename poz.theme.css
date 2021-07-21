@@ -23,7 +23,7 @@
   filter: blur(0);
 }
 
-.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
+.search-1iTphC .searchBox-2_mAlO, #permissions-modal div, #EditUploadsModal, .wrapper-3jrx9n label:not(.selected-mKYnfr).option-n0icdO, .warning-3C2pOH, .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .css-gvi9bl-control, .css-6fzn47-control, .theme-dark .message-2qRu38, .theme-dark .autocomplete-1vrmpx, .theme-dark .perksModal-fSYqOq, .theme-dark .container-3ayLPN, .theme-dark .modal-yWgWj-, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .container-1D34oG, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark .paginator-166-09 .payment-xT17Mq, .theme-dark .paymentPane-3bwJ6A .payment-xT17Mq, .theme-dark .paginator-166-09, .theme-dark .paymentPane-3bwJ6A {
   background: #181a1f !important;
   background-color: #181a1f !important;
 }
@@ -54,8 +54,8 @@
   --text-link:#db5e85;
   --brand-experiment:#db5e85;
   /*other settings 4 u to configure (compiled css)*/
-  --ClydeReplaceAvatar:url("https://i.imgur.com/V2fSIA4.png") /* Avatar for the clyde replace */;
-  --ClydeReplaceName:"Pøz" /* username for the clyde replace */;
+  --ClydeReplaceAvatar:url("https://i.imgur.com/OxMtO9h.jpg") /* Avatar for the clyde replace */;
+  --ClydeReplaceName:"femboy" /* username for the clyde replace */;
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
@@ -132,7 +132,6 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] + h2 > span > .username
   background-color: #db5e85 !important;
   border-color: #db5e85 !important;
 }
-
 .reaction-1hd86g.reactionMe-wv5HKu {
   border-color: #db5e85;
   background-color: rgba(219, 94, 133, 0.06);

@@ -11,6 +11,7 @@ $color-light-darker:scale-color($color-light, $lightness:-30%);
 $color-light-darkerA:rgba($color-light-darker,.7);
 $color-dark : #131315;
 $color-accent: #db5e85;
+//$color-accent: #d97abd;
 $color-accent-dark: scale-color($color-accent, $lightness:-30%);
 $color-accent-light:scale-color($color-accent,$lightness:20%);
 
@@ -77,8 +78,8 @@ $DisableStickers: false;
 
 	/*other settings 4 u to configure (compiled css)*/
 
-	--ClydeReplaceAvatar:url("https://i.imgur.com/V2fSIA4.png") /* Avatar for the clyde replace */;
-	--ClydeReplaceName:"Pøz" /* username for the clyde replace */;
+	--ClydeReplaceAvatar:url("https://i.imgur.com/OxMtO9h.jpg") /* Avatar for the clyde replace */;
+	--ClydeReplaceName:"femboy" /* username for the clyde replace */;
 }
 
 
@@ -219,7 +220,9 @@ img[src*="/assets/f78426a064bc9dd24847519259bc42af.png"] {
 	//& .checkbox-1ix_J3 {
 	//	background-color: $color-accent;
 	//}
-
+	& .message-2qRu38 {
+		@extend %fixColour
+	}
 }
 
 // im sorry that i cannot be bothered going through the like 100 different vars they have; mald more.
