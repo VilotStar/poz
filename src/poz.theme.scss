@@ -34,6 +34,17 @@ $DisableStickers: false;
 
 }
 
+// animations
+
+@keyframes fade_in {
+	from{
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 %blur {
 	backdrop-filter: blur(24px);
 	background-color: rgba( mix($color-light,$color-accent,80),.1) !important;
@@ -149,6 +160,13 @@ div[aria-label="Clyde"] {
 	& .banner-2QYc2d.popoutBanner-19WKGg {
 		background-color: $color-accent !important;
 	}
+}
+
+.popout-APcvZm {
+	//@extend %blur;
+	background-color: $color-lighter;
+	background: $color-lighter;
+	animation: fade_in .25s linear;
 }
 
 
