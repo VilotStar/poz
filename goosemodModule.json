@@ -1,9 +1,0 @@
-{
-  "name": "Poz",
-  "description": "Port of poz theme",
-  "version": "1.0",
-  "author": "Pozm",
-  "license": "MIT",
-  "theme": "src/poz.theme.scss",
-  "meta": "Test"
-}
