@@ -1,0 +1,34 @@
+{
+    "modules": [
+        {
+            "name": "poz",
+            "description": "simple discord theme",
+            "version": "1.0",
+            "tags": [
+                "DOM",
+                "CSS",
+                "theme",
+                "port"
+            ],
+            "authors": [
+                {
+                    "i": "644348720263200769",
+                    "n": "pozm",
+                    "a": "https://cdn.discordapp.com/avatars/644348720263200769/a_9ffc689f78699366682afae73e64294d.webp?size=128"
+                }
+            ],
+            "github": {
+                "stars": 0,
+                "repo": "pozm/poz"
+            },
+            "lastUpdated": 1636875674,
+            "images": [
+
+            ]
+        }
+    ],
+    "meta": {
+        "name": "Poz Github",
+        "description": "a"
+    }
+}
