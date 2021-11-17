@@ -24,7 +24,8 @@
             "lastUpdated": 1636875674,
             "images": [
                 "https://camo.githubusercontent.com/719224dac979e2aa60240d4a9f48f1f6aaabe90f9c5ed0185884fb108ade1045/68747470733a2f2f692e696d6775722e636f6d2f566477514774372e706e67"
-            ]
+            ],
+            "theme": "src/poz.theme.scss"
         }
     ],
     "meta": {
