@@ -4,5 +4,6 @@
   "version": "1.0",
   "author": "Pozm",
   "license": "MIT",
-  "theme": "src/poz.theme.scss"
+  "theme": "src/poz.theme.scss",
+  "meta": "Test"
 }
