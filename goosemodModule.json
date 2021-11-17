@@ -1,10 +1,8 @@
 {
-  "main": "src/poz.theme.scss",
-  "version": "0.0.0",
-
   "name": "Poz",
-  "description": "Port of Poz for Goosey",
-  "tags": ["femboy"],
-  "authors": ["644348720263200769"],
-  "images": []
+  "description": "Port of poz theme",
+  "version": "1.0",
+  "author": "Pozm",
+  "license": "MIT",
+  "theme": "src/poz.theme.scss"
 }
