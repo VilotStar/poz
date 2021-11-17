@@ -1,0 +1,12 @@
+{
+    "main": "src/poz.theme.scss",
+    "version": "1.0",
+    "name": "Poz",
+    "description": "Port of poz.",
+    "tags": [
+        "quick-actions"
+    ],
+    "authors": [
+        "644348720263200769"
+    ]
+}
